@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+
+
+.title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.search-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-form input {
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid #000000;
+  background: #001a63;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+
+.search-form button {
+  width: 8%;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px !important;
+  background: #001a63;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.search-form button:hover {
+  background: linear-gradient(35deg, #001a63 45%, #ff00d4 95%);
+  color: #000000;
+}
+
+
+.main-container {
+  font-size: 30px;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-container h4 {
+  font-size: 25px;
+  font-weight: 8800;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .search-form input {
+    width: 70%;
+  }
+  .search-form button {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .search-form input {
+    width: 80%;
+  }
+  .search-form button {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .search-form input {
+    width: 90%;
+  }
+  .search-form button {
+    width: 8%;
+  }
+}
+
+.temprature {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+.location h3 {
+  font-size: 25px;
+}
+
+
+.loader-container {
+  margin: 15%;
+}
